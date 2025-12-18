@@ -3,6 +3,23 @@
   "displayName": "Copy Reference",
   "description": "Copy relative file path with line or line range (e.g., src/app.js:12 or src/app.js:12-20).",
   "version": "0.0.1",
+  "author": "Rune Aspvik",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aspvik/copy-reference.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aspvik/copy-reference/issues"
+  },
+  "homepage": "https://github.com/Aspvik/copy-reference#readme",
+  "keywords": [
+    "vscode",
+    "vscode-extension",
+    "copy",
+    "reference",
+    "path",
+    "line"
+  ],
   "publisher": "local",
   "engines": {
     "vscode": "^1.70.0"
