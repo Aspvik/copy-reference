@@ -23,7 +23,7 @@
     "path",
     "line"
   ],
-  "publisher": "local",
+  "publisher": "RuneAspvik",
   "engines": {
     "vscode": "^1.70.0"
   },
