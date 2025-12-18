@@ -1,13 +1,13 @@
-# Copy Reference (minimal extension)
+# Copy Line Reference (minimal extension)
 
-Right‑click in the editor → **Copy Reference** to copy:
+Right‑click in the editor → **Copy Line Reference** to copy:
 - `relative/path/to/file.js:12` for a cursor or single-line selection
 - `relative/path/to/file.js:12-20` for a multi-line selection
 
 ## Quick try (no packaging)
 1. Open this folder in VS Code.
 2. Press `F5` (Run Extension) to launch an Extension Development Host.
-3. Open any file, right‑click → **Copy Reference**.
+3. Open any file, right‑click → **Copy Line Reference**.
 
 ## Optional: Package a VSIX
 1. `npm install -g @vscode/vsce`

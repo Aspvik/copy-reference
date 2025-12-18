@@ -1,8 +1,8 @@
 {
-  "name": "copy-reference",
-  "displayName": "Copy Reference",
+  "name": "copy-line-reference",
+  "displayName": "Copy Line Reference",
   "description": "Copy relative file path with line or line range (e.g., src/app.js:12 or src/app.js:12-20).",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Rune Aspvik",
   "scripts": {
     "build": "npx @vscode/vsce package --out ./dist"
