@@ -1,5 +1,7 @@
 # Copy Line Reference (minimal extension)
 
+![Context](docs/images/context.png)
+
 ## Usage
 Right‑click in the editor → **Copy Line Reference** to copy:
 - `relative/path/to/file.js:12` for a cursor or single-line selection
