@@ -1,6 +1,6 @@
 {
-  "name": "copy-line-reference",
-  "displayName": "Copy Line Reference",
+  "name": "copy-line-reference-vscode",
+  "displayName": "Copy Line Reference VSCode",
   "description": "Copy relative file path with line or line range (e.g., src/app.js:12 or src/app.js:12-20).",
   "version": "0.0.2",
   "author": "Rune Aspvik",
