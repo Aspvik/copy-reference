@@ -1,0 +1,42 @@
+{
+  "name": "copy-reference",
+  "displayName": "Copy Reference",
+  "description": "Copy relative file path with line or line range (e.g., src/app.js:12 or src/app.js:12-20).",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onCommand:copyReference.copy"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copyReference.copy",
+        "title": "Copy Line Reference"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "copyReference.copy",
+          "group": "navigation@9",
+          "when": "editorTextFocus"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "copyReference.copy",
+        "key": "ctrl+alt+shift+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "categories": [
+    "Other"
+  ],
+  "license": "MIT"
+}
