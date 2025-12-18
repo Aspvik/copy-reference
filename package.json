@@ -4,6 +4,9 @@
   "description": "Copy relative file path with line or line range (e.g., src/app.js:12 or src/app.js:12-20).",
   "version": "0.0.1",
   "author": "Rune Aspvik",
+  "scripts": {
+    "build": "npx @vscode/vsce package --out ./dist"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Aspvik/copy-reference.git"
